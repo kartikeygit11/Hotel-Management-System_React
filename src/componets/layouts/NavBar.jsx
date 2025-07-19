@@ -47,35 +47,35 @@ const Navbar = () => {
             <NavLink
               to="/"
               className="text-gray-700 hover:text-indigo-600 py-2"
-              activeClassName="text-indigo-600 font-semibold"
+              ClassName="text-indigo-600 font-semibold"
             >
               Home
             </NavLink>
             <NavLink
               to="/rooms"
               className="text-gray-700 hover:text-indigo-600 py-2"
-              activeClassName="text-indigo-600 font-semibold"
+              ClassName="text-indigo-600 font-semibold"
             >
               Rooms
             </NavLink>
             <NavLink
               to="/about-us"
               className="text-gray-700 hover:text-indigo-600 py-2"
-              activeClassName="text-indigo-600 font-semibold"
+              ClassName="text-indigo-600 font-semibold"
             >
              About Us
             </NavLink>
             <NavLink
               to="/contact"
               className="text-gray-700 hover:text-indigo-600 py-2"
-              activeClassName="text-indigo-600 font-semibold"
+              ClassName="text-indigo-600 font-semibold"
             >
               Contact Us
             </NavLink>
             <NavLink
               to="/admin-login"
               className="text-gray-700 hover:text-indigo-600 py-2"
-              activeClassName="text-indigo-600 font-semibold"
+             ClassName="text-indigo-600 font-semibold"
             >
               Admin
             </NavLink>
@@ -91,7 +91,7 @@ const Navbar = () => {
           <NavLink
             to="/"
             className="block text-gray-700 hover:bg-indigo-50 py-2 px-4"
-            activeClassName="bg-indigo-50 text-indigo-600 font-semibold"
+            ClassName="bg-indigo-50 text-indigo-600 font-semibold"
             onClick={toggleMenu}
           >
             Home
@@ -99,7 +99,7 @@ const Navbar = () => {
           <NavLink
             to="/rooms"
             className="block text-gray-700 hover:bg-indigo-50 py-2 px-4"
-            activeClassName="bg-indigo-50 text-indigo-600 font-semibold"
+          ClassName="bg-indigo-50 text-indigo-600 font-semibold"
             onClick={toggleMenu}
           >
             Rooms
@@ -107,7 +107,7 @@ const Navbar = () => {
           <NavLink
             to="/services"
             className="block text-gray-700 hover:bg-indigo-50 py-2 px-4"
-            activeClassName="bg-indigo-50 text-indigo-600 font-semibold"
+         ClassName="bg-indigo-50 text-indigo-600 font-semibold"
             onClick={toggleMenu}
           >
             Services
@@ -115,7 +115,7 @@ const Navbar = () => {
           <NavLink
             to="/contact"
             className="block text-gray-700 hover:bg-indigo-50 py-2 px-4"
-            activeClassName="bg-indigo-50 text-indigo-600 font-semibold"
+           ClassName="bg-indigo-50 text-indigo-600 font-semibold"
             onClick={toggleMenu}
           >
             Contact Us

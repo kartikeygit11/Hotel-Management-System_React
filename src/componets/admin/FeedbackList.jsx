@@ -6,7 +6,7 @@ const FeedbackList = () => {
   useEffect(() => {
     const fetchFeedbacks = async () => {
       try {
-        const response = await fetch('http://localhost:9000/api/feedbacks');
+        const response = await fetch('considerate-gratitude-production.up.railway.app');
         const data = await response.json();
         setFeedbacks(data);
       } catch (error) {
