@@ -11,7 +11,7 @@ function AdminDashboard() {
     // Simulating an API call to check for new messages
     const checkForNewMessages = async () => {
       try {
-        const response = await fetch('considerate-gratitude-production.up.railway.app'); // API endpoint to check for unread messages
+        const response = await fetch('https://demo-deployment-latest-is22.onrender.com'); // API endpoint to check for unread messages
         if (response.ok) {
           const data = await response.json();
           setHasNewMessages(data.unreadCount > 0); // Set to true if there are unread messages

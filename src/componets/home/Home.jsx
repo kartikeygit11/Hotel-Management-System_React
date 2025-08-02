@@ -8,11 +8,14 @@ import AboutUs from '../common/AboutUs'
 
 const  Home = () => {
   return (
-    <div className='container'>
+    <div>
         <Parallax/>
         <RoomCarousel/>
         <HotelService/>
+        
+       
         <AboutUs/>
+        
         <ContactUs/>
 
         

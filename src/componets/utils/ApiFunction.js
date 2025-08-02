@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: 'considerate-gratitude-production.up.railway.app',
+    baseURL: 'https://demo-deployment-latest-is22.onrender.com',
 });
 
 // Feedback-related functions
